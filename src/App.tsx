@@ -63,7 +63,7 @@ const App = () => {
         </div>
 
         <a
-          href="https://layerswap.io/app"
+          href="https://layerswap.io/app?from=solana_mainnet&to=starknet_mainnet&asset=usdc"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-4 p-8 mb-16 
