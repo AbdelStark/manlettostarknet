@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowPathIcon, PlayIcon } from '@heroicons/react/24/solid';
 import type { Link } from './types';
+import { Analytics } from '@vercel/analytics/react';
 
 const links: Link[] = [
   {
@@ -81,6 +82,7 @@ const App = () => {
           ))}
         </div>
       </main>
+      <Analytics />
     </div>
   );
 };
